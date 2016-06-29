@@ -24,7 +24,7 @@ src:1.2.3.[1-9]+</td>
 <tr>
 <td>req</td>
 <td>regex</td>
-<td>req:(.*homepage.html)
+<td>req:(.*homepage.html)<br />
 req:(?!.*tor\-exit\-node)</td>
 <td>Search for requests that contain (or not) specific text.</td>
 </tr>
