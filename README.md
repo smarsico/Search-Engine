@@ -22,11 +22,18 @@ src:1.2.3.[1-9]+</td>
 <td>Search for a specific IP Address or Class.</td>
 </tr>
 <tr>
+<td>req</td>
+<td>regex</td>
+<td>req:(.*homepage.html)
+req:(?!.*tor\-exit\-node)</td>
+<td>Search for requests that contain (or not) specific text.</td>
+</tr>
+<tr>
 <td>method</td>
 <td>regex</td>
 <td>method:GET
 method:(GET|POST)</td>
-<td>Search all requests with a specific method.</td>
+<td>Search for all requests with a specific method.</td>
 </tr>
 <tr>
 <td>status</td>
