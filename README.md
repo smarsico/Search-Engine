@@ -73,15 +73,15 @@ hour:(14|15)</td>
 <tr>
 <td>minute</td>
 <td>regex</td>
-<td>minute:30
-minute:3[0-9]</td>
+<td>min:30
+min:3[0-9]</td>
 <td>Search all logs in a specific minute.</td>
 </tr>
 <tr>
 <td>second</td>
 <td>regex</td>
-<td>second:59
-second:5[0-9]</td>
+<td>sec:59
+sec:5[0-9]</td>
 <td>Search all logs in a specific second.</td>
 </tr>
 <tr>
